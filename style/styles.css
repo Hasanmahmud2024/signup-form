@@ -1,0 +1,60 @@
+body {
+    font-family: "Fira Sans", serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+.container {
+  position: relative;
+  min-height: 100vh; /* make the container fill the viewpoet height*/
+  min-width: 100vh;
+  background-color: rgb(217, 223, 227);
+}
+
+.bg-img-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 30%;
+  height: 100vh;
+  background-image: url("../images/halie-west-25xggax4bSA-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.form-container {
+  margin-left: 30%; /* Adjust based on background image width */
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: none;
+}
+
+.form-input input {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 50%;
+  margin-bottom: 0.4rem;
+  padding: 5px 10px;
+}
+
+.form-input label {
+  /* position: relative;
+    top: -1.2rem; */
+  display: block;
+  margin-bottom: 0.2rem;
+}
+
+.input-name {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.input-name label {
+    margin-right: 0.5rem;
+}
+
+.input-name input {
+    flex: 1;
+    min-width: 0;
+}

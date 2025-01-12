@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Signup Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    
+    <link rel="stylesheet" href="style/styles.css" />
+  </head>
+
+  <body>
+    <!-- for using flex let's create a div.container -->
+    <div class="container">
+      <!-- our background image will go inside bg-img-container -->
+      <div class="bg-img-container"></div>
+
+      <!-- for the form elements with p, div.form-container -->
+      <div class="form-container">
+        <p class="info">
+          This is not a real online service! <br />
+          You know you need something like this in your life to help you realize
+          your deepest dreams. <br />
+          Sign up <em>now</em> to get started.
+        </p>
+        <p class="info-two">You <em>know</em> you want to.</p>
+
+        <!-- form input elements -->
+        <div class="form-input">
+          <h1 class="form-heading">Let's do this!</h1>
+
+          <div class="input-name">
+            <label for="first-name">FIRST NAME</label>
+            <input type="text" name="first-name" id="first-name" />
+            <label for="last-name">LAST NAME</label>
+            <input type="text" name="last-name" id="last-name" />
+          </div>
+
+          <div class="input-mail-num">
+            <label for="email">EMAIL</label>
+            <input type="email" name="email" id="email" />
+            <label for="number">PHONE NUMBER</label>
+            <input type="number" name="number" id="number" />
+          </div>
+
+          <div class="input-pass">
+            <label for="password">PASSWORD</label>
+            <input type="password" name="password" id="password" />
+            <label for="confirm-pass">CONFIRM PASSWORD</label>
+            <input type="password" name="confirm-pass" id="condirm-pass" />
+          </div>
+        </div>
+
+        <!-- a remember me checkbox -->
+        <div class="checkbox">
+          <input type="checkbox" name="" id="rememberMe" name:rememberMe="" />
+          <label for="rememberMe">Remember Me</label>
+        </div>
+
+        <!-- create account button -->
+        <button type="submit">Create Accouont</button>
+
+        <!-- in case they have an accouont -->
+        <p class="log-in">Already have an Accouont? <a href="#">Log In</a></p>
+      </div>
+    </div>
+  </body>
+</html>
