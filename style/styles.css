@@ -28,10 +28,14 @@ body {
 
 /* for the bg color */
 .form-input {
-    width: 100%;
+    width: 94%;
     padding: 2rem;
     background-color: rgba(255, 255, 255, 0.8);
     box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.3);
+}
+
+label {
+    margin-top: -0.8rem;
 }
 
 /* for name inputs */
@@ -75,7 +79,6 @@ body {
   margin-bottom: 1rem;
   padding: 5px 10px;
   flex: 1;
-  min-width: 0;
 }
 
 /* for password inputs*/
@@ -111,4 +114,27 @@ button {
   border: none;
   border-radius: 3px;
   cursor: pointer;
+}
+
+button:hover {
+  background-color: hsl(122, 39%, 39%);
+}
+
+button:active {
+  background-color: hsl(122, 39%, 50%);
+}
+
+.log-in a {
+    text-decoration: none;
+    color: #47a24a;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #3c883f;
+}
+
+a:active {
+    text-decoration: none;
+    color: #4f554d;
 }
